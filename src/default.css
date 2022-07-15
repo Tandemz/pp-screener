@@ -1,0 +1,131 @@
+
+/* Global Defaults */ html, body { 
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+}
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Muli", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 175%;
+  font-weight: 400;
+}
+
+/* Headlines */
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+  font-family: "Muli", Helvetica, Arial, sans-serif;
+}
+
+/* Text Styles */
+
+p, th, td, li, dd, dt, ul, ol, blockquote, q, acronym, abbr, a, input, select, textarea {
+  margin: 0;
+  padding: 0;
+}
+
+blockquote {
+  margin: 1.25em;
+  padding: 1.25em
+}
+
+q {
+  font-style: italic;
+}
+
+acronym, abbr {
+  cursor: help;
+  border-bottom: 1px dashed;
+}
+
+small {
+  font-size:.85em;
+}
+
+big {
+  font-size:1.2em;
+}
+/* Links and Images */
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a[disabled] {
+  cursor: auto;
+}
+
+img {
+  border: none;
+}
+/* Tables */
+
+table {
+  margin: 0;
+  padding: 0;
+  border: none;
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+/* Forms */
+
+form {
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+
+label {
+  cursor: pointer;
+}
+
+textarea,
+input{
+  background:none;
+  border:none;
+  font-size:1em;
+  outline: none;
+  box-shadow: none;
+}
+
+button,
+[role="button"],
+input#submit{
+  background:none;
+  border:none;
+  font-size:1em;
+  cursor: pointer;
+  -webkit-appearance: none;
+  font-family: "Muli",  Helvetica, Arial, sans-serif;
+}
+
+[role="button"],
+button:focus {
+  outline:0;
+}
+
+[role="button"][disabled],
+button[disabled] {
+  cursor: auto;
+}
+
+
+input::placeholder {
+  color: #9AA8BD;
+}
+
+.cky-consent-bar {
+  z-index: 9999999 !important;
+}

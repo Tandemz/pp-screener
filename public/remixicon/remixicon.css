@@ -1,0 +1,121 @@
+
+/*
+* https://remixicon.com
+* https://github.com/Remix-Design/RemixIcon
+* Copyright RemixIcon.com
+* Released under the Apache License Version 2.0
+*/
+
+@font-face {
+    font-family: "remixicon";
+    src: url('remixicon.eot?t=1657200768982'); /* IE9*/
+    src: url('remixicon.eot?t=1657200768982#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url("remixicon.woff2?t=1657200768982") format("woff2"),
+    url("remixicon.woff?t=1657200768982") format("woff"),
+    url('remixicon.ttf?t=1657200768982') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+    url('remixicon.svg?t=1657200768982#remixicon') format('svg'); /* iOS 4.1- */
+    font-display: swap;
+}
+
+[class^="ri-"], [class*="ri-"] {
+    font-family: 'remixicon' !important;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.ri-lg { font-size: 1.3333em; line-height: 0.75em; vertical-align: -.0667em; }
+.ri-xl { font-size: 1.5em; line-height: 0.6666em; vertical-align: -.075em; }
+.ri-xxs { font-size: .5em; }
+.ri-xs { font-size: .75em; }
+.ri-sm { font-size: .875em }
+.ri-1x { font-size: 1em; }
+.ri-2x { font-size: 2em; }
+.ri-3x { font-size: 3em; }
+.ri-4x { font-size: 4em; }
+.ri-5x { font-size: 5em; }
+.ri-6x { font-size: 6em; }
+.ri-7x { font-size: 7em; }
+.ri-8x { font-size: 8em; }
+.ri-9x { font-size: 9em; }
+.ri-10x { font-size: 10em; }
+.ri-fw { text-align: center; width: 1.25em; }
+
+.ri-eye-line:before { content: "\ecb5"; }
+.ri-eye-off-line:before { content: "\ecb7"; }
+.ri-arrow-right-line:before { content: "\ea6c"; }
+.ri-arrow-left-line:before { content: "\ea60"; }
+.ri-radio-button-line:before { content: "\f050"; }
+.ri-checkbox-blank-circle-line:before { content: "\eb7d"; }
+.ri-checkbox-line:before { content: "\eb85"; }
+.ri-checkbox-blank-line:before { content: "\eb7f"; }
+.ri-arrow-down-s-line:before { content: "\ea4e"; }
+.ri-search-line:before { content: "\f0d1"; }
+.ri-map-pin-2-line:before { content: "\ef0a"; }
+.ri-settings-3-line:before { content: "\f0e6"; }
+.ri-question-line:before { content: "\f045"; }
+.ri-dashboard-line:before { content: "\ec14"; }
+.ri-group-line:before { content: "\ede3"; }
+.ri-delete-bin-line:before { content: "\ec2a"; }
+.ri-add-circle-line:before { content: "\ea11"; }
+.ri-add-line:before { content: "\ea13"; }
+.ri-subtract-line:before { content: "\f1af"; }
+.ri-checkbox-circle-fill:before { content: "\eb80"; }
+.ri-file-copy-line:before { content: "\ecd5"; }
+.ri-phone-line:before { content: "\efec"; }
+.ri-vidicon-line:before { content: "\f288"; }
+.ri-user-3-line:before { content: "\f256"; }
+.ri-bank-card-line:before { content: "\ea92"; }
+.ri-time-line:before { content: "\f20f"; }
+.ri-information-line:before { content: "\ee59"; }
+.ri-calendar-event-line:before { content: "\eb25"; }
+.ri-heart-line:before { content: "\ee0f"; }
+.ri-error-warning-line:before { content: "\eca1"; }
+.ri-close-line:before { content: "\eb99"; }
+.ri-edit-line:before { content: "\ec86"; }
+.ri-link-m:before { content: "\eeaf"; }
+.ri-more-2-line:before { content: "\ef77"; }
+.ri-gift-line:before { content: "\edbb"; }
+.ri-walk-line:before { content: "\f2a8"; }
+.ri-lock-2-line:before { content: "\eecc"; }
+.ri-arrow-left-s-line:before { content: "\ea64"; }
+.ri-arrow-right-s-line:before { content: "\ea6e"; }
+.ri-arrow-up-s-line:before { content: "\ea78"; }
+.ri-filter-line:before { content: "\ed27"; }
+.ri-checkbox-indeterminate-line:before { content: "\eb84"; }
+.ri-mail-line:before { content: "\eef6"; }
+.ri-more-line:before { content: "\ef79"; }
+.ri-sticky-note-line:before { content: "\f19b"; }
+.ri-list-check-2:before { content: "\eeb9"; }
+.ri-close-circle-fill:before { content: "\eb96"; }
+.ri-drag-drop-fill:before { content: "\ec5d"; }
+.ri-paragraph:before { content: "\efc8"; }
+.ri-text:before { content: "\f201"; }
+.ri-upload-cloud-2-line:before { content: "\f24c"; }
+.ri-team-line:before { content: "\f1ee"; }
+.ri-building-line:before { content: "\eb0f"; }
+.ri-download-line:before { content: "\ec5a"; }
+.ri-send-plane-2-line:before { content: "\f0d8"; }
+.ri-check-line:before { content: "\eb7b"; }
+.ri-fire-fill:before { content: "\ed32"; }
+.ri-pie-chart-line:before { content: "\effa"; }
+.ri-question-mark:before { content: "\f046"; }
+.ri-tablet-line:before { content: "\f1e0"; }
+.ri-smartphone-line:before { content: "\f15a"; }
+.ri-computer-line:before { content: "\ebca"; }
+.ri-draft-line:before { content: "\ec5c"; }
+.ri-loader-4-line:before { content: "\eec6"; }
+.ri-price-tag-3-line:before { content: "\f023"; }
+.ri-coins-line:before { content: "\ebb4"; }
+.ri-briefcase-3-line:before { content: "\eaef"; }
+.ri-file-list-3-line:before { content: "\ecef"; }
+.ri-mic-line:before { content: "\ef50"; }
+.ri-webcam-line:before { content: "\f2b2"; }
+.ri-cast-line:before { content: "\eb3f"; }
+.ri-chat-3-line:before { content: "\eb51"; }
+.ri-thumb-down-line:before { content: "\f205"; }
+.ri-thumb-up-line:before { content: "\f207"; }
+.ri-share-box-line:before { content: "\f0f4"; }
+.ri-star-line:before { content: "\f18b"; }
+.ri-guide-line:before { content: "\ede5"; }
+.ri-spam-3-fill:before { content: "\f16a"; }
